@@ -16,7 +16,6 @@ class Circle:
         """
         return float(self._radius)
 
-    @property
     def area(self):
         """
         Area of a Circle
@@ -25,7 +24,6 @@ class Circle:
         """
         return self.area_of_a_circle(self.radius)
 
-    @property
     def perimeter(self):
         """
         Perimeter of a Circle
