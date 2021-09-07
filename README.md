@@ -24,3 +24,6 @@ Create a flask route to return the type of triangle
 - isosceles triangle - two sides have the same length.
 
 - scalene triangle - no sides have the same length.
+#### Question Seven:
+Create a decorator function for testing if the value passed in the url is a numeric 
+value and if it is not return an error message with a 401 status code.
