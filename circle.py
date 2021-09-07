@@ -1,7 +1,8 @@
 import math
+from base_shape import Shape
 
 
-class Circle:
+class Circle(Shape):
 
     def __init__(self, radius):
         self._radius = radius
@@ -43,7 +44,7 @@ class Circle:
         :rtype: float
         """
         if isinstance(radius, float):
-            return math.pi * (radius * radius)
+            return math.pi * math.pow(radius, 2)
         else:
             raise TypeError("Radius not given as a float")
 
